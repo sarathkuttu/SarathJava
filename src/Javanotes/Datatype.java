@@ -21,25 +21,23 @@ public class Datatype {
 
         char init = 'T';
 
-        System.out.printf("My name is %s ",name);
+        System.out.printf("My name is %s ", name);
 
         System.out.println();
 
-        System.out.println("My age is "+age);
+        System.out.println("My age is " + age);
 
-        System.out.printf("My pincode is %d",pin);
+        System.out.printf("My pincode is %d", pin);
 
         System.out.println();
 
-        System.out.println("Phone number is "+phone);
+        System.out.println("Phone number is " + phone);
 
-        System.out.println("Weight is "+weigh +"cm");
+        System.out.println("Weight is " + weigh + "cm");
 
-        System.out.println("Height is "+height+"kg");
+        System.out.println("Height is " + height + "kg");
 
-        System.out.printf("My Initial is %c%c",init,'V');
-
-
+        System.out.printf("My Initial is %c%c", init, 'V');
 
 
     }
