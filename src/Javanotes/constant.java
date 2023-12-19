@@ -14,7 +14,7 @@ public class constant {
         final float b = 123.22f;
         System.out.println(b);
 
-        b = 999.99f;
+        //b = 999.99f;
 
         System.out.println(b);
 
