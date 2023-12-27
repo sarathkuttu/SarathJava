@@ -1,21 +1,23 @@
 package src.Javanotes;
 
+import java.util.Scanner;
+
 public class LeapYear {
 
     public static void main(String[] args) {
 
-        int number = 2000;
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
 
 
+        if ((number % 4 == 0 && number % 100 != 0 || number % 400 == 0)) {
 
-        if (number % 4 == 0) {
+            System.out.println("LEAP YEAR");
 
-            System.out.println("it's a Lep year'");
+        }else {
 
-        } else {
-
-            System.out.println("it's not a Lep year'");
-
+            System.out.println("NOT A LEAP YEAR");
         }
+
     }
 }
