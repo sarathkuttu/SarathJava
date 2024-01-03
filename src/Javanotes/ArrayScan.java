@@ -28,6 +28,8 @@ public class ArrayScan {
             System.out.println(array[i]);
         }
 
+        sc.close();
+
     }
 }
 
