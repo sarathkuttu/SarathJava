@@ -1,4 +1,4 @@
-package src.OopsNotes;
+package src.JavaBase;
 
 import java.util.Scanner;
 
