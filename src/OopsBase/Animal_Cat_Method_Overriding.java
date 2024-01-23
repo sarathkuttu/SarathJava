@@ -1,0 +1,11 @@
+package src.OopsBase;
+
+public class Animal_Cat_Method_Overriding extends Animal_Method_Overriding {
+
+    public void Sound() {
+
+        System.out.println("MEOW");
+
+
+    }
+}
